@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplilearn.webapptest.amazon.AmazonHomePageTest">
+      <class name="com.simplilearn.webapptest.facebook.FacebookHomePageTest">
         <methods>
-          <include name="amazonSearchProductTest1"/>
           <include name="beforeMethod"/>
+          <include name="loginTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.simplilearn.webapptest.amazon.AmazonHomePageTest -->
+      </class> <!-- com.simplilearn.webapptest.facebook.FacebookHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

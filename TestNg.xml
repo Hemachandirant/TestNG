@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="eCommerce Webapp Test Suite">
+	<test name="Amazon Test">
+		<classes>
+			<class name="com.simplilearn.webapptest.amazon.AmazonHomePageTest"></class>
+			<class name="com.simplilearn.webapptest.amazon.AmazonNavigationTest"></class>
+		</classes>
+	</test>
+	<test name="Facebook Test">
+		<classes>
+			<class name="com.simplilearn.webapptest.facebook.FacebookHomePageTest"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
